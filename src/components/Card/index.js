@@ -7,8 +7,6 @@ import { ImAccessibility } from "react-icons/im";
 import { GiCash } from "react-icons/gi";
 import { TbArrowsRandom } from "react-icons/tb";
 
-import { type } from "@testing-library/user-event/dist/type";
-
 const url = "http://www.boredapi.com/api/activity/";
 
 const Card = () => {
@@ -26,8 +24,7 @@ const Card = () => {
     fetchRadomBore();
   }, []);
 
-  const { activity, type, participants, price, link, key, accessibility } =
-    bored;
+  const { activity, type, participants, price, link, accessibility } = bored;
   return (
     <Wrapper>
       <Content>

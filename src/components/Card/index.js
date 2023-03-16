@@ -25,6 +25,7 @@ const Card = () => {
   }, []);
 
   const { activity, type, participants, price, link, accessibility } = bored;
+
   return (
     <Wrapper>
       <Content>
@@ -79,7 +80,7 @@ const Card = () => {
 
             <p className="small">
               <a target="_blank" rel="noopener noreferrer" href={link}>
-                {link.slice(0, 25) || "no link"}
+                {link ? "click to learn more" : " "}
               </a>
             </p>
           </div>

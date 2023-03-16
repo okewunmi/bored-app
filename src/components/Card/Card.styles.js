@@ -60,7 +60,9 @@ export const Content = styled.div`
   .white {
     color: var(--white);
   }
-
+  .width {
+    font-size: 10px;
+  }
   .box {
     color: #ea2222;
     display: flex;

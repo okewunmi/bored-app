@@ -1,41 +1,40 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-/* background: var(--darkGrey); */
-justify-content:center;
-align-items: center;
-display:flex;
-flex-direction: column;
-height:100vh;
-overflow: hidden;
-flex-wrap:wrap;
+  /* background: var(--darkGrey); */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  flex-wrap: wrap;
 
-
-.btn {
+  .btn {
     /* margin-top:-3.7rem; */
-  //  background: #ea2222;
-    width:13rem;
-    padding: .5rem .8rem;
+    //  background: #ea2222;
+    width: 13rem;
+    padding: 0.5rem 0.8rem;
     color: #1c1c1c;
-    font-weight:bold;
-    border:0;
+    font-weight: bold;
+    border: 0;
     font-size: var(--fontSmall);
     /* display:block; */
-    border-radius:10rem;
-    outline:1px solid var(--lightGrey);
+    border-radius: 10rem;
+    outline: 1px solid var(--lightGrey);
     outline-offset: 3px;
-    align-self:center;
+    align-self: center;
     cursor: pointer;
     transition: all 0.3s;
 
     @media screen and (max-width: 390px) {
-    margin-top: -1.5rem;
-  }
+      margin-top: -1.5rem;
+    }
 
     :hover {
-        opacity: 0.6;
-
+      opacity: 0.6;
     }
+  }
 `;
 
 export const Content = styled.div`

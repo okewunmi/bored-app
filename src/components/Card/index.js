@@ -7,7 +7,7 @@ import { ImAccessibility } from "react-icons/im";
 import { GiCash } from "react-icons/gi";
 import { TbArrowsRandom } from "react-icons/tb";
 
-const url = "http://www.boredapi.com/api/activity/";
+const url = "https://www.boredapi.com/api/activity/";
 // const url = process.env.REACT_APP_API_KEY;
 const Card = () => {
   const [bored, setBored] = useState("");

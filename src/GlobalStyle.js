@@ -37,17 +37,20 @@ body{
         font-size:1.1rem;
         font-weight:600;    
     }
-    h4{
-        font-size:.9rem;
-        font-weight:600; 
-        color: var(--white);
-        padding-left:.3rem; 
-    }
+    
     p{
         font-size:15px;
         color: var(--white);
     }
 }
-
+@media screen and (max-width: 390px) {
+    body{
+        height: 100vh;
+    }
+    p{
+        font-size: 13px;
+    }
+   
+  }
 
 `;

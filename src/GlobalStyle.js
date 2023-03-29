@@ -5,24 +5,22 @@ export const GlobalStyle = createGlobalStyle`
 :root{
     --maxWidth: 1280px; 
     --white: #fff;
+    --black:#000;
     --lightGrey: #eee;
     --MedGrey:#353535;
     --darkGrey: #1c1c1c;
+    --grey:#808080;
+    --Blue-Gray:	#7393B3;
     --fontSuperBig: 2.5rem;
     --fontBig: 1.4rem;
     --fontMed: 1.2rem;
     --fontSmall: 1rem;   
 }
 
-.white{
-    color:var(--white);
-}
-.color-change-5x{animation:color-change-5x 8s linear infinite alternate both}
-@keyframes color-change-5x{0%{background:#19dcea}25%{background:#b22cff}50%{background:#ea2222}75%{background:#f5be10}100%{background:#3bd80d}}
 
 *{
     box-sizing: border-box;
-    font-family: 'Spectral', serif;
+    font-family: 'Roboto Flex', sans-serif;
 }
 body{
     padding: 0;
@@ -40,16 +38,21 @@ body{
     
     p{
         font-size:15px;
-        color: var(--white);
+        
+    }
+    a{
+        cursor: pointer;
     }
 }
+.display{
+    display:visible;
+    color:red;
+}
+.hide{
+    visibility: hidden;
+}
 @media screen and (max-width: 390px) {
-    body{
-        height: 100vh;
-    }
-    p{
-        font-size: 13px;
-    }
+   
    
   }
 

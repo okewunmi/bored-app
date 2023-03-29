@@ -1,13 +1,14 @@
-import Card from "./components/Card";
-// import Button from './components/Button'
 import { GlobalStyle } from "./GlobalStyle";
+import Header from "./components/Header/index";
+import Archive from "./components/Archive/";
 import "./index.css";
 function App() {
   return (
-    <section className="color-change-5x">
-      <Card />
+    <>
+      <Header />
+      <Archive />
       <GlobalStyle />
-    </section>
+    </>
   );
 }
 
